@@ -1,0 +1,116 @@
+#conteiner_skills{
+    height: 60vh;
+    width: 100vw;
+
+    position: relative;
+
+    background-color: rgb(167, 167, 149);
+}
+
+/* titulo y subtitulo skills */
+#conteiner_skills .title_container{
+    width: 100vw;
+    height: 15vh;
+    position: relative;
+    top: 0vh;
+}
+
+#conteiner_skills .title_container h1{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+    font-size: 40px;
+    font-family: 'Bebas Neue';
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#conteiner_skills .title_container h6{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* divs de skills */
+#conteiner_skills #conteiner_divs{
+    width: 100vw;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#conteiner_skills #conteiner_divs .skill_div{
+    position: relative;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 30vw;
+    height: 10vh;
+    border: solid black 2px;
+}
+
+#conteiner_skills #conteiner_divs .skill_div .percentage{
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 32vw;
+    color: orange;
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    text-shadow: 1px 2px 2px black;
+}
+
+#conteiner_skills #conteiner_divs .skill_div div{
+    background: orange;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#conteiner_skills #conteiner_divs .skill_div div p{
+    position: relative;
+    top: 10%;
+    left: 5%;
+
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+
+    text-shadow: 2px 2px 5px black;
+    color: orange;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    #conteiner_skills #conteiner_divs .skill_div{
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+    }
+}
+
+
+@media (min-width: 375px) and (max-width: 768px){
+
+    #conteiner_skills .title_container h6{
+        display: none;
+    }
+  
+    #conteiner_skills #conteiner_divs .skill_div .percentage{
+        display: none;
+    }
+
+    #conteiner_skills #conteiner_divs .skill_div div p{
+        font-size: 3.5vw;
+    }
+}

@@ -1,0 +1,213 @@
+#Education_container{
+    height: 80vh;
+    width: 100vw;
+
+    position: relative;
+
+    background-color: rgb(233, 110, 38);
+
+    border-top: 10px solid black;
+}
+
+/* div de titulo */
+
+#Education_container .title_education{
+    width: 100vw;
+    height: 20vh;
+
+    margin: 0;
+}
+
+#Education_container .title_education h1{
+    text-align: center;
+
+    font-size: 40px;
+    font-family: 'Bebas Neue';
+
+    position: relative;
+    top: 2.5vh;
+
+    margin: 0;
+}
+
+#Education_container .title_education h6{
+    text-align: center;
+
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+
+    position: relative;
+    top: 3vh;
+
+    margin: 0;
+}
+
+/* timeline */
+
+.container_dates{
+    width: 100vw;
+    height: 40vh;
+
+    margin: 0;
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.container_dates .info_container .box_dates{
+    width: 20vw;
+    height: 5vh;
+
+    text-align: center;
+    background-color: rgb(167, 167, 149);
+    border: 2px solid black;
+
+    position: relative;
+}
+
+
+.container_dates .box_dates p{
+    font-family: 'Bebas Neue';
+    font-size: 1.2vw;
+    margin: 0;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.container_dates .info_div{
+    width: 20vw;
+    height: 35vh;
+
+    text-align: center;
+    background-color: rgb(167, 167, 149);
+    border: 2px solid black;
+
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container_dates .info_div div{
+    width: inherit;
+}
+
+.container_dates .info_div .first_box{
+    height: 12vh;
+}
+
+.container_dates .info_div .second_box{
+    height: 20vh;
+}
+
+.container_dates .info_div div h3{
+    width: inherit;
+    height: max-content;
+    text-align: center;
+
+    font-size: 18px;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+.container_dates .info_div div div{
+    width: 15vw;
+    height: 2px;
+    background: black;
+
+    position: relative;
+    top: -15px;
+    left: 2.5vw;
+
+    margin-top: 3px;
+
+}
+
+.container_dates .info_div div ul{
+    width: 15vw;
+
+    position: relative;
+    left: 0.5vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container_dates .info_div div ul li{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Encode Sans SC', sans-serif;
+
+    position: relative;
+    left: 0vw;
+
+    letter-spacing: 0.5px;
+}
+
+
+@media (min-width: 1024px) and (max-width: 1500px){
+    .container_dates .info_div div ul li{
+        font-size: 1vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .container_dates .info_div div ul li{
+        font-size: 1.2vw;
+        font-weight: 800;
+        left: -2vw;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 768px){
+    
+    .container_dates{
+        height: 42vh;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+
+        overflow-x: scroll;
+    }
+
+    .info_container{
+        width: 40vw;
+
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+    }
+
+    .container_dates .info_container .box_dates{
+        width: 40vw;
+    }
+
+    .container_dates .info_container .box_dates p{
+        font-size: 2.5vw;
+    }
+
+    .container_dates .info_container .info_div{
+        width: 40vw;
+    }
+
+    .container_dates .info_div div div{
+        width: 35vw;
+    }
+
+    .container_dates .info_div div ul{
+        width: 30vw;
+        left: -2vw;
+    }
+
+    .container_dates .info_div div ul li{
+        font-size: 1.8vw;
+        font-weight: 800;
+    }
+}

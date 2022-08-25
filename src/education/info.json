@@ -1,0 +1,25 @@
+{
+    "info": [
+        {
+            "date": "2015",
+            "achievements": "Escuela Secundaria completada",
+            "Learning": ["ingles nivel intermedio"]
+        },
+        {
+            "date": "2019/2020",
+            "achievements": "Curso de desarrollo web Full Stack en Acamica",
+            "Learning":["HTML5", "CSS3", "javascript", "MySql", "Node.js", "Express.js"]
+        },
+        {
+            "date": "2020/2021",
+            "achievements": "Aplicacion para microsoft de Inventario con fines administrativos",
+            "Learning":["Electron.js", "Typescript"]
+        },
+        {
+            "date": "2021/2022",
+            "achievements": "Curso Argentina programa ( primer y senguda etapa ) y curso online de react.js en Coderhouse",
+            "Learning":["React.js"]
+        }
+    ]
+}
+

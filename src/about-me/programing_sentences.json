@@ -1,0 +1,33 @@
+
+[
+    {
+        "Id": "1",
+        "Author": "- Eric S. Raymond",
+        "Sentence": "La educación en computación no puede hacer a nadie un experto programador más que el estudio de pinceles y pigmentos puede hacer a alguien un pintor experto."
+    },
+    {
+        "Id": "2",
+        "Author": "- Mosher’s Law of Software Engineering",
+        "Sentence": "No te preocupes si no funciona bien. Si todo lo que hizo lo hiciera, estarías sin trabajo."
+    },
+    {
+        "Id": "3",
+        "Author": "- Aristoteles",
+        "Sentence": " La inteligencia consiste no sólo en el conocimiento, sino también en la destreza de aplicar los conocimientos en la práctica."
+    },
+    {
+        "Id": "4",
+        "Author": "- Robert C. Martin",
+        "Sentence": "La verdad solo se puede encontrar en un lugar: el código."
+    },
+    {
+        "Id": "5",
+        "Author": "- Hayao Miyazaki",
+        "Sentence": "La inspiración desbloquea el futuro." 
+    },
+    {
+        "Id": "6",
+        "Author": "- Unknown",
+        "Sentence": "En software, < < bello y elegante > > significa fácil y barato de evolucionar y mantener."
+    }
+]
